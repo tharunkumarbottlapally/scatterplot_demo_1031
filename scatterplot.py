@@ -1,11 +1,8 @@
-import imp
-from tkinter import Y
-from turtle import title
 import streamlit as st
 import pandas as pd
 import altair as alt
 import numpy as np
-from zmq import SCATTER
+
 
 who_data=pd.read_csv("WHO_data.csv")
 
